@@ -21,7 +21,7 @@ pipeline {
 
         stage('Deploy WAR') {
             steps {
-                sh 'cp target/my-webapp-1.0-SNAPSHOT.war /opt/tomcat/webapps/'
+                sh 'cp target/maven-webapp-1.0-SNAPSHOT.war /opt/tomcat/webapps/'
             }
         }
 
